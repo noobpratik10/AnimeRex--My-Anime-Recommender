@@ -1,0 +1,175 @@
+/* Rack Container Style */
+.rack-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    height: 35vh;
+    max-height: 275px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #262730;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 2%;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior: contain;
+}
+
+/* Item inside the rack */
+.rack-item {
+    flex: 0 0 25%;
+    text-align: center;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 150px;
+    margin: 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+    background-color: #FF4B4B;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-snap-align: start;
+}
+/* Hover effect for 3D appearance */
+.rack-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Active effect for pressing down */
+.rack-item:active {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Rack Item Image */
+.rack-item-img {
+    height: 85%;
+    width: 100%;
+}
+
+.rack-item-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* Text below the image */
+.rack-item-text {
+    flex-grow: 0;
+    height: 13%;
+    overflow: hidden;
+}
+
+/* Text inside the text container */
+.rack-item-text p {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.anime-container {
+    width: 100%;
+    background-color: #262730;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.anime-title h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 2%;
+    padding: 0 2%;
+}
+
+.anime-english-title h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    color: #666;
+    margin: 0 2%;
+    padding: 0 2%;
+}
+
+.anime-image-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 0 2%;
+    padding: 0 2%;
+}
+
+.anime-image-info img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.anime-image-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.anime-details-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.anime-synopsis p {
+    font-size: 16px;
+    margin: 0 2%;
+    padding: 0 2%;
+    text-align: justify;
+}
+
+.filter-rack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-rack .filter-select {
+    width: 20%;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.responsive-title {
+    font-size: 3em;
+    text-align: center;
+    margin: 2px 0;
+}
+
+@media (max-width: 768px) {
+    .responsive-title {
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-title {
+        font-size: 1.8em;
+        text-align: center;
+    }
+}
+
