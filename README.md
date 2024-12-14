@@ -40,15 +40,23 @@ The AnimeRex recommendation system combines three approaches to provide anime su
 
 ## Installation and Setup
 1. Clone the repository to your local machine and navigate to the project directory
-  - `git clone https://github.com/noobpratik10/AnimeRex--My-Anime-Recommender.git`
-  - `cd animerex` 
+   ``` bash
+     git clone https://github.com/noobpratik10/AnimeRex--My-Anime-Recommender.git
+     cd animerex
+   ```
 2. Set up and activate Virtul Environment
-  - `python -m venv env`
-  - `env\Scripts\activate`
+   ```bash
+     python -m venv env
+     env\Scripts\activate
+   ```
 3. Install Dependecies
-  - `pip install -r requirements.txt`  
+   ```bash
+     pip install -r requirements.txt
+   ```     
 4. Run the WebApp
-  - `streamlit run app.py` 
+   ```bash
+     streamlit run app.py
+   ```
 
 
 
