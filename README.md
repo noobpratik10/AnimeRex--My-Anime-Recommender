@@ -1,7 +1,7 @@
 # AnimeRex: My Anime Recommender
 
 ## Overview
-AnimeRex is a user-friendly web application designed to help anime enthusiasts discover new shows and movies based on their preferences. Leveraging machine learning and a curated dataset, AnimeRex offers personalized recommendations to users.
+AnimeRex is a user-friendly web application designed to help anime enthusiasts discover new anime shows and movies based on their preferences. Leveraging machine learning and a curated dataset, AnimeRex offers personalized recommendations to users.
 
 ## Demo
 - You can try out the web app live on Streamlit Community Cloud: [AnimeRex: My Anime Recommender](https://animerex--my-anime-recommender-fj3mto2havaewsktffvtlv.streamlit.app/)
