@@ -3,6 +3,9 @@
 ## Overview
 AnimeRex is a user-friendly web application designed to help anime enthusiasts discover new shows and movies based on their preferences. Leveraging machine learning and a curated dataset, AnimeRex offers personalized recommendations to users.
 
+## Demo
+- You can try out the web app live on Streamlit Community Cloud: [AnimeRex: My Anime Recommender](https://animerex--my-anime-recommender-fj3mto2havaewsktffvtlv.streamlit.app/)
+
 ## Key Features
 - *Personalized Recommendations:* Suggests anime based on user preferences such as genre, rating, and popularity.
 - *Search Functionality:* Allows users to explore anime information directly.
@@ -33,10 +36,6 @@ The AnimeRex recommendation system combines three approaches to provide anime su
     *HTML:* Used via st.markdown for custom layouts.
     *CSS:* Integrated custom styles using an external stylesheet.
 - *Model Training:* Built and trained models using Google Colab.
-
-
-## Demo
-- You can try out the web app live on Streamlit Community Cloud: [AnimeRex: My Anime Recommender](https://animerex--my-anime-recommender-fj3mto2havaewsktffvtlv.streamlit.app/)
 
 ## Installation and Setup
 1. Clone the repository to your local machine and navigate to the project directory
