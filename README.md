@@ -57,5 +57,8 @@ The AnimeRex recommendation system combines three approaches to provide anime su
      streamlit run app.py
    ```
 
+## Screenshots
+![image alt](https://github.com/noobpratik10/AnimeRex--My-Anime-Recommender/blob/09bc02fa97e8ad4d4602f42dcaf5331202db2637/static/Screenshot%202025-03-17%20222105.png)
+![image alt](https://github.com/noobpratik10/AnimeRex--My-Anime-Recommender/blob/09bc02fa97e8ad4d4602f42dcaf5331202db2637/static/Screenshot%202025-03-17%20222144.png)
 
 
